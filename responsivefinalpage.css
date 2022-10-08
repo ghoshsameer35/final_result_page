@@ -1,0 +1,134 @@
+@media (max-width:1000px) {
+    .search_sec {
+        width: 400px;
+        transition: 0.5s ease all;
+    }
+}
+
+@media (max-width:768px) {
+    .search_sec {
+        /* position: absolute; */
+        margin-top: 40%;
+        /* margin-left: 15%; */
+        width: 300px;
+        margin-left: -35px;
+    }
+
+    .left {
+        width: 40%;
+    }
+
+    .right {
+        width: 88%;
+        margin-left: -90px;
+    }
+
+    .bottom_icon {
+        width: 20px;
+        height: 20px;
+        padding: 2px;
+
+    }
+
+    .bottom_icon img {
+        height: 20px;
+
+    }
+
+    .bottom_font_color p {
+        font-size: 15px;
+    }
+
+    .down_section_4 {
+        width: 30%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .show_review {
+        width: 98%;
+        position: absolute;
+        top: 160%;
+        left: 0%;
+        border-radius: 0px;
+    }
+
+    .galary {
+        width: 634px;
+    }
+
+    /* share  */
+    .share_form {
+        height: 300px;
+        width: 300px;
+        transition: 0.5s ease all;
+    }
+
+    .share_form ul li {
+        margin: 20px;
+        transition: 0.5s ease all;
+
+    }
+    .review_form{
+        width: 60%;
+    }
+    .feedback{
+        display: none;
+    }
+    .star{
+        display: flex;
+    }
+}
+
+@media screen and (max-width:525px) {
+    .review_form {
+        height: 400px;
+        width: 350px;
+        transition: 0.5s ease all;
+    }
+
+    .reviewer_info {
+        width: 300px;
+    }
+
+    #review {
+        width: 300px;
+    }
+
+    .reviewer_info_btn {
+        height: 35px;
+        width: 55px;
+    }
+}
+
+@media (max-width:500px) {
+    .galary {
+        width: 450px;
+    }
+    .form_list tr td input{
+        width: 200px;
+    }
+    #write_review_sec{
+        width: 200px;
+    }
+    
+}
+@media (max-width:810px){
+    .review_form{
+    height: 34%;
+}
+.form_list tr td input{
+    width: 200px;
+}
+#write_review_sec{
+    width: 200px;
+}
+}
+@media (max-width:1017px){
+    .form_list tr td input{
+        width: 200px;
+    }
+    #write_review_sec{
+        width: 200px;
+    }
+}
